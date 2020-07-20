@@ -1,16 +1,15 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Leahu Luiza](https://up.htmlacademy.ru/adaptive/20/user/1471761).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктория Коваленко](https://htmlacademy.ru/profile/id42638).
 
 ---
 
 **Обратите внимание, что папка с вашими исходными файлами — `source/`.**
-
 Полезный файл:
 
 - [Contributing.md](Contributing.md) — руководство по внесению изменений.
-
+c
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `.stylelintrc`, `.travis.yml`, `package-lock.json`, `package.json`._
 
