@@ -1,12 +1,178 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
+<html class="page" lang="ru">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>Pink</title>
+</head>
 
-  </body>
+<body class="page-body">
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img src="https://via.placeholder.com" alt="logo">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a>
+              Главная
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html">
+              Фотографии
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">
+              Конкурс
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">
+              HTML Academy
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="page-main">
+    <h1 class="visually-hidden">
+      PINK -раскрась свою жизнь
+    </h1>
+    <section class="presentation presentation__header">
+      <h2>
+        Взгляни на жизнь иначи!
+      </h2>
+      <img src="https://via.placeholder.com/150x150" alt="phone">
+      <form method="get" action="https://www.apple.com/ios/app-store/">
+        <button type="submit" class="button button--download">
+          Скачать приложение
+        </button>
+      </form>
+      <div>
+        <a href="https://www.apple.com/ios/app-store/"><img src="https://via.placeholder.com/150x150" alt="iPhone"></a>
+        <a href="https://play.google.com/store/apps"></a><img src="https://via.placeholder.com/150x150"
+          alt="android"></a>
+        <a href="https://www.microsoft.com/en-us/store/apps/windows"></a><img src="https://via.placeholder.com/150x150"
+          alt="windows"></a>
+      </div>
+      <div>
+        Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+      </div>
+    </section>
+    <section class="advantages">
+      <h3 class="visually-hidden">
+        Наши преимущества
+      </h3>
+      <div>
+        <p class="advantages__title">
+          Устали от серости мегаполиса?
+        </p>
+        <p class="advantages__title">
+          Нам есть что вам предложить
+        </p>
+      </div>
+      <ul class="advantages__list">
+        <li class="advantages__item">
+          <h3 class="advantages__list__title">
+            Поднимает настроение
+          </h3>
+          <p class="advantages__description">
+            Приложение позволит вам победить осенюю хандру и депрессию буквально в
+            несколько кликов!
+          </p>
+        </li>
+        <li class="advantages__item">
+          <h3 class="advantages__list__title">
+            Меняет мир вокруг
+          </h3>
+          <p class="advantages__description">
+            Сделай снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+          </p>
+        </li>
+        <li class="advantages__item">
+          <h3 class="advantages__list__title">
+            Заводит новых друзей
+          </h3>
+          <p class="advantages__description">
+            Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="review">
+      <div class="review__wrapper slider">
+        <blockquote class="review__item slider__item">
+          <h4 class="review__name">
+            Николай Петров
+          </h4>
+          <p class="review__text">
+            «Это приложение перевернула мой мир и позволило по-новому на привычные серые
+            веши! А еще я познакомился со своей будушей женой в комментариях к выложеной фотографии!»
+          </p>
+        </blockquote>
+        <blockquote class="review__item slider__item">
+          <h4 class="review__name">
+            Николай Петров
+          </h4>
+          <p class="review__text">
+            «Это приложение перевернула мой мир и позволило по-новому на привычные серые
+            веши! А еще я познакомился со своей будушей женой в комментариях к выложеной фотографии!»
+          </p>
+        </blockquote>
+        <blockquote class="review__item slider__item">
+          <h4 class="review__name">
+            Николай Петров
+          </h4>
+          <p class="review__description">
+            «Это приложение перевернула мой мир и позволило по-новому на привычные серые
+            веши! А еще я познакомился со своей будушей женой в комментариях к выложеной фотографии!»
+          </p>
+        </blockquote>
+
+        <p class="review__toggles slider__toggles">
+          <button class="slider__toggle slider__toggle--current" type="button">1</button>
+          <button class="slider__toggle" type="button">2</button>
+          <button class="slider__toggle" type="button">3</button>
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer footer">
+    <div class="footer__wraper">
+      <div class="footer__logo">
+        <img src="https://via.placeholder.com/150x150" alt="">
+      </div>
+      <div class="footer__social-icons social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--twiter" href="https://twiter.com/htmlacademy"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="https://social__link--facebook.com/htmlacademy"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="https://youtube.com/htmlacademy"></a>
+          </li>
+        </ul>
+        <div>
+          Разработано
+          <img src="https://via.placeholder.com/150x150" alt="https://htmlacademy.ru/intensive/adaptive">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer>
+
+  </footer>
+
+</body>
+
 </html>
