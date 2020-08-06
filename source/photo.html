@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
 <head>
   <meta charset="utf-8">
   <title>Pink</title>
@@ -187,6 +190,111 @@
           </p>
         </div>
       </blockquote>
+    </section>
+    <section class="post-photo">
+      <h3 class="visually-hidden">
+        post your picture
+      </h3>
+
+      <form method="post" action="https://echo.htmlacademy.ru">
+        <p class="post-photo__title">
+          Затмите всех!
+        </p>
+        <p class="post-photo__text">
+          Выкладывайте все что накопилось в телефоне!
+        </p>
+        <img src="https://via.placeholder.com/150x150" alt="">
+        <div class="post-photo__option-all">
+          <div class="post-photo__option-crop">
+            <button type="button" class="post-photo__option-crop__button post-photo__option-active">
+              <img src="https://via.placeholder.com/150x150" alt="">
+            </button>
+            <fieldset class="filter-item">
+              <legend class="filter-legend visuality hidden">crop:</legend>
+              <div class="range-filter">
+                <div class="range-controls">
+                  <div class="scale">
+                    <div class="bar">
+                    </div>
+                  </div>
+                  <div class="toggle toggle">
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+          <div class="post-photo__option-saturation">
+            <button type="button" class="post-photo__option-saturation__button">
+              <img src="https://via.placeholder.com/150x150" alt="">
+            </button>
+            <fieldset class="filter-item">
+              <legend class="filter-legend visuality hidden">saturation:</legend>
+              <div class="range-filter">
+                <div class="range-controls">
+                  <div class="scale">
+                    <div class="bar">
+                    </div>
+                  </div>
+                  <div class="toggle toggle"></div>
+                </div>
+              </div>
+            </fieldset>
+          
+          </div>
+          <div class="post-photo__option-shade">
+            <button type="button" class="post-photo__option-shade__button">
+              <img src="https://via.placeholder.com/150x150" alt="">
+            </button>
+          </div>
+
+          <fieldset class="filter-item">
+            <legend class="filter-legend visuality hidden">shade:</legend>
+            <div class="range-filter">
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="toggle toggle"></div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+        <!-- <div>
+        <form method="get" action="https://echo.htmlacademy.ru">
+          <fieldset class="filter-item">
+            <legend class="filter-legend">Стоимость:</legend>
+            <div class="range-filter">
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="toggle toggle"></div>
+              </div>
+              <div class="price-controls">
+                <label class="min-price price-label">
+                  от <input type="number" name="min-price" value="0">
+                </label>
+                <label class="max-price price-label">
+                  до <input type="number" name="max-price" value="15000">
+                </label>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+        </div>-->
+        <div class="post-photo__button">
+          <!--  <form class="post-photo__form">-->
+          <p>
+            <button type="submit" class="button button--post">
+              Запостить
+            </button>
+            <button type="reset" class="button button--cancel">
+              Отмена
+            </button>
+          </p>
+
+        </div>
+      </form>
     </section>
   </main>
   <footer class="page-footer footer">
