@@ -1,0 +1,25 @@
+$white: #ffffff;
+$red: red;
+$dark-grey: #283645;
+
+.footer {
+  background-color: $white;
+  outline: 2px solid #000000;
+
+}
+
+.footer__wraper {
+  margin: 0 auto;
+  padding: 40px, 85px;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.footer__developer {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: $dark-grey;
+}

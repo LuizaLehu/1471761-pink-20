@@ -1,0 +1,154 @@
+$white: #FFFFFF;
+$grey: #1D2631;
+$light-grey: #F2F2F2;
+$dark-grey: #283645;
+$fuksia:#D22856;
+$black: #000;
+
+.page-main {
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  color: $white;
+  outline: 3px solid $black;
+}
+
+.presentation__header {
+  background: $grey;
+  padding: 20px;
+  background-image: url(../../img/back-mobile.jpg);
+  outline: 1px solid #000;
+}
+}
+
+.presentation__header__title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.presentation__picture {
+  background: url(../../img/back-mobile.jpg);
+}
+
+.presenttion__button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.presentation__description {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.advantages {
+  outline: 1px solid #000;
+}
+
+.advantages__title {
+  background-color: $white;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  margin-top: 46px;
+  margin-right: 20px;
+  margin-bottom: 70px;
+  margin-left: 20px;
+}
+
+.advantages__list {
+  background-color: $light-grey;
+}
+
+.advantages__list__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.advantages__description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.page__photo {
+  background-image: url(../../img/back-mobile.jpg);
+  outline: 1px solid #000;
+}
+
+.page__photo__title {
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 68px;
+  color: $white;
+}
+
+
+.reviews {
+  background-color: $white;
+  outline: 1px solid #000;
+}
+
+
+
+.reviews__introduction {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.reviews__item__text {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.reviews__info {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: $dark-grey;
+}
+
+.reviews__name {
+  font-weight: bold;
+}
+
+.reviews__time,
+.reviews__likes {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.reviews__likes {
+  color: $fuksia;
+}
+
+.post-photo__title {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: $dark-grey;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: $fuksia;
+}
+
+.button--post {
+  color: $fuksia;
+}
+
+.button--cancel {
+  color: $dark-grey;
+}
