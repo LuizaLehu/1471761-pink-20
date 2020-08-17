@@ -11,11 +11,9 @@ $dark-grey: #283645;
 .footer__wraper {
   margin: 0 auto;
   padding: 40px, 85px;
+  outline: 3px solid $red
 }
 
-.social-list {
-  list-style: none;
-}
 
 .footer__developer {
   font-weight: normal;
