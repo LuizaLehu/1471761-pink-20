@@ -1,4 +1,5 @@
 @import "../../node_modules/normalize-scss/sass/_normalize.scss";
+@import "base/variables.scss";
 @import "base/base.scss";
 @import "blocks/main-page.scss";
 @import "blocks/header.scss";
@@ -9,3 +10,5 @@
 @import "blocks/social.scss";
 @import "blocks/button.scss";
 @import "blocks/advantages.scss";
+@import "review";
+@import "slider";
