@@ -1,0 +1,39 @@
+.reviews {
+    background-color: $white;
+    outline: 1px solid #000;
+  }
+  .reviews__introduction {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  .reviews__item__text {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  
+.reviews__info {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: $dark-grey;
+  }
+  
+  .reviews__name {
+    font-weight: bold;
+  }
+  
+  .reviews__time,
+  .reviews__likes {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+  
+  .reviews__likes {
+    color: $fuksia;
+  }
+  

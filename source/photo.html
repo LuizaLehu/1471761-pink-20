@@ -41,8 +41,8 @@
       </div>
     </nav>
   </header>
-  <main>
-    <h1>
+  <main class="page__photo">
+    <h1 calss="page__photo__title">
       Фотографии пользователей
     </h1>
     <section class="reviews">
@@ -54,9 +54,9 @@
       </p>
       <blockquote class="reviews__item">
         <a href="#">
-          <img src="https://via.placeholder.com/150x150" alt="">
+          <img src="img/panorama-tablet.jpg" width="660" height="509" alt="panorama">
         </a>
-        <span>
+        <span class="reviews__item__text">
           Панорама дня
         </span>
         <div class="reviews__info">
@@ -71,14 +71,15 @@
             задавайте
             свои вопросы!
           </p>
-          <p>
+          <p class="reviews__likes">
             Нравиться:215
           </p>
         </div>
       </blockquote>
       <blockquote class="reviews__item">
         <a href="#">
-          <img src="https://via.placeholder.com/150x150" alt="">
+          <img src="img/levon-picture.jpg" width="280" height="180" alt="levon_picture
+          ">
         </a>
         <div class="reviews__info">
           <cite class="reviews__name">
@@ -90,14 +91,14 @@
           <p class="reviews__text">
             Вчера он на луну летал, сегодня в руки к нам попал
           </p>
-          <p>
+          <p class="reviews__likes">
             Нравиться:356
           </p>
         </div>
       </blockquote>
       <blockquote class="reviews__item">
         <a href="#">
-          <img src="https://via.placeholder.com/150x150" alt="">
+          <img src="img/anton-picture.jpg" width="280" height="180" alt="">
         </a>
         <div class="reviews__info">
           <cite class="reviews__name">
@@ -109,14 +110,14 @@
           <p class="reviews__text">
             Соседи будут рады
           </p>
-          <p>
+          <p class="reviews__likes">
             Нравиться:666
           </p>
         </div>
       </blockquote>
       <blockquote class="reviews__item">
         <a href="#">
-          <img src="https://via.placeholder.com/150x150" alt="">
+          <img src="img/boris-picture.jpg" width="280" height="180" alt="">
         </a>
         <div class="reviews__info">
           <cite class="reviews__name">
@@ -128,14 +129,14 @@
           <p class="reviews__text">
             Сдесь могла быть ваша цитата о высоком и о вечном
           </p>
-          <p>
+          <p class="reviews__likes">
             Нравиться:215
           </p>
         </div>
       </blockquote>
       <blockquote class="reviews__item">
         <a href="#">
-          <img src="https://via.placeholder.com/150x150" alt="">
+          <img src="img/serghei-picture.jpg" width="280" height="180" alt="">
         </a>
         <div class="reviews__info">
           <cite class="reviews__name">
@@ -147,14 +148,14 @@
           <p class="reviews__text">
             Самая кубанская в мире!
           </p>
-          <p>
+          <p class="reviews__likes">
             Нравиться:4
           </p>
         </div>
       </blockquote>
       <blockquote class="reviews__item">
         <a href="#">
-          <img src="https://via.placeholder.com/150x150" alt="">
+          <img src="img/maxim-picture.jpg" width="280" height="180" alt="">
         </a>
         <div class="reviews__info">
           <cite class="reviews__name">
@@ -166,14 +167,14 @@
           <p class="reviews__text">
             Где снег-то?
           </p>
-          <p>
+          <p class="reviews__likes">
             Нравиться:150
           </p>
         </div>
       </blockquote>
       <blockquote class="reviews__item">
         <a href="#">
-          <img src="https://via.placeholder.com/150x150" alt="">
+          <img src="img/nadejda-picture.jpg" width="280" height="180" alt="">
         </a>
         <div class="reviews__info">
           <cite class="reviews__name">
@@ -185,7 +186,7 @@
           <p class="reviews__text">
             Всем GM и взаимные лайки!
           </p>
-          <p>
+          <p class="reviews__likes">
             Нравиться:2560
           </p>
         </div>
@@ -195,7 +196,6 @@
       <h3 class="visually-hidden">
         post your picture
       </h3>
-
       <form method="post" action="https://echo.htmlacademy.ru">
         <p class="post-photo__title">
           Затмите всех!
@@ -239,14 +239,12 @@
                 </div>
               </div>
             </fieldset>
-          
           </div>
           <div class="post-photo__option-shade">
             <button type="button" class="post-photo__option-shade__button">
               <img src="https://via.placeholder.com/150x150" alt="">
             </button>
           </div>
-
           <fieldset class="filter-item">
             <legend class="filter-legend visuality hidden">shade:</legend>
             <div class="range-filter">
@@ -292,7 +290,6 @@
               Отмена
             </button>
           </p>
-
         </div>
       </form>
     </section>
@@ -300,23 +297,38 @@
   <footer class="page-footer footer">
     <div class="footer__wraper">
       <div class="footer__logo">
-        <img src="https://via.placeholder.com/150x150" alt="">
+        <img src="img/logotype-blue-tablet.png" width="145" height="40" alt="">
       </div>
       <div class="footer__social-icons social">
         <ul class="social__list">
           <li class="social__item">
-            <a class="social__link social__link--twiter" href="https://twiter.com/htmlacademy"></a>
+            <a class="social__link social__link--twiter" href="https://twiter.com/htmlacademy">
+              <span class="visually-hidden">
+                твиттер
+              </span>
+              <img src="img/twitter.png" width="18" height="14" alt="twitter">
+            </a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--facebook" href="https://social__link--facebook.com/htmlacademy"></a>
+            <a class="social__link social__link--facebook" href="https://social__link--facebook.com/htmlacademy">
+              <span class="visually-hidden">
+                facebook
+              </span>
+              <img src="img/facebook.png" width="9" height="18" alt="facebook">
+            </a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--youtube" href="https://youtube.com/htmlacademy"></a>
+            <a class="social__link social__link--youtube" href="https://youtube.com/htmlacademy">
+              <span class="visually-hidden">
+                youtube
+              </span>
+              <img src="img/youtube.png" width="15" height="13" alt="youtube">
+            </a>
           </li>
         </ul>
-        <div>
-          Разработано
-          <img src="https://via.placeholder.com/150x150" alt="https://htmlacademy.ru/intensive/adaptive">
+        <div class="footer__developer">
+          <span class="">Разработано</span>
+          <img src="img/htmlacademy.svg" width="27" height="34" alt="https://htmlacademy.ru/intensive/adaptive">
         </div>
       </div>
     </div>
