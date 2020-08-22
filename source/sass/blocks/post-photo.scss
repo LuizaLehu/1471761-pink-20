@@ -1,0 +1,12 @@
+.post-photo {
+  background-color: $light-grey;
+  margin: 20px;
+}
+
+.post-photo__title,
+.post-photo__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: $dark-grey
+}
