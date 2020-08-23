@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
+
 <head>
   <meta charset="utf-8">
   <title>Pink</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="page-body">
   <header class="page-header">
-    <a class="page-header__logo">
-      <img src="https://via.placeholder.com" alt="logo">
+    <a class="page-header__logo" href="index.html">
+      <img src="img/pink-logo.png" width="74" height="23" alt="logo">
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">
@@ -40,33 +43,33 @@
     </nav>
   </header>
   <main>
-    <section class="modal">
+    <section class="form">
       <h1 class="visually-hidden">
         Форма для данных
       </h1>
-      <p class="modal-text">
+      <p class="form-text">
         Поделитесь своей историей и получите шанс выйграть ценный приз -1000 миль на вашу бонусную карту!
       </p>
-      <form class="modal__form" action="https://echo.htmlacademy.ru" method="post">
+      <form class="form__form" action="https://echo.htmlacademy.ru" method="post">
         <div>
-          <p class="modal__form-info">
-            <label for="surname" class="modal__form-label">Фамилия:</label>
+          <p class="form__form-info">
+            <label for="surname" class="form__form-label">Фамилия:</label>
             <input type="text" id="surname" name="person-surname" placeholder="Укажите фамилию*"
-              class="modal__form__item">
+              class="form__form__item">
           </p>
-          <p class="modal__form-info">
+          <p class="form__form-info">
             <label for="name" class="modal__form-label">Имя:</label>
             <input type="text" id="name" name="person-name" placeholder="Введите ваше имя*" class="modal__form__item">
           </p>
-          <p class="modal__form-info">
+          <p class="form__form-info">
             <label for="father-name" class="modal__form-label">Отчество:</label>
             <input type="text" id="father-name" name="person-father-name" placeholder="Ну и отчество тоже"
-              class="modal__form__item">
+              class="form__form__item">
           </p>
         </div>
         <div>
-          <fieldset class="modal__fieldset">
-            <legend class="modal__title-group">Ваши безбашенные достижения в путешествии</legend>
+          <fieldset class="form__fieldset">
+            <legend class="form__title-group">Ваши безбашенные достижения в путешествии</legend>
             <ul>
               <li class="filter-option filter-checkbox">
                 <label class="check option" for="check-filter-one">
@@ -114,33 +117,33 @@
           </fieldset>
         </div>
         <div>
-          <p class="modal__form-info">
-            <label for="phone-number" class="modal__form-label">Номер телефона</label>
+          <p class="form__form-info">
+            <label for="phone-number" class="form__form-label">Номер телефона</label>
             <input type="tel" id="phone-number" name="person-phone" placeholder="Номер пожалуйста"
-              class="modal__form__item">
+              class="form__form__item">
           </p>
           <p>
-            <label for="email" class="modal__form-label">Адрес почты</label>
+            <label for="email" class="form__form-label">Адрес почты</label>
             <input type="email" id="email" name="person-email" placeholder="Введите почту*" class="modal__form__item">
           </p>
         </div>
         <div>
-          <fieldset class="modal__fieldset">
-            <legend class="modal__title-group">С каким приложениям путешествовали?</legend>
+          <fieldset class="form__fieldset">
+            <legend class="form__title-group">С каким приложениям путешествовали?</legend>
             <ul>
-              <li class="modal__filter-option filter-radio">
+              <li class="form__filter-option filter-radio">
                 <label class="radio" for="modal__form">
                   <input class="radio-input" type="radio" name="form" id="modal__form" value="adaptiv">
                   <span class="radio-box"></span>
                   Pink для iOS</label>
               </li>
-              <li class="modal__filter-option filter-radio">
+              <li class="form__filter-option filter-radio">
                 <label class="radio" for="modal__form-one">
                   <input class="radio-input" type="radio" name="form" id="modal__form-one" value="adaptiv">
                   <span class="radio-box"></span>
                   Pink для Android</label>
               </li>
-              <li class="modal__filter-option filter-radio">
+              <li class="form__filter-option filter-radio">
                 <label class="radio" for="modal__form-two">
                   <input class="radio-input" type="radio" name="form" id="modal__form-two" value="adaptiv">
                   <span class="radio-box"></span>
@@ -149,11 +152,11 @@
             </ul>
           </fieldset>
         </div>
-        <p class="modal__form-info">
-          <label for="comment" class="modal__form-label">Опишите свои эмоции</label>
+        <p class="form__form-info">
+          <label for="comment" class="form__form-label">Опишите свои эмоции</label>
           <textarea name="comment" id="comment" rows="5">Можно прям в красках, не стесняясь выражений</textarea>
         </p>
-        <button type="submit" class="button button--send">Отправить форму 
+        <button type="submit" class="button button--send">Отправить форму
         </button>
       </form>
       <p>
@@ -164,7 +167,9 @@
   <footer class="page-footer footer">
     <div class="footer__wraper">
       <div class="footer__logo">
-        <img src="img/logotype-blue-tablet.png" width="145" height="40" alt="">
+        <a href="index.html">
+          <img src="img/logotype-blue-tablet.png" width="145" height="40" alt="">
+        </a>
       </div>
       <div class="footer__social-icons social">
         <ul class="social__list">
@@ -201,4 +206,5 @@
     </div>
   </footer>
 </body>
+
 </html>
