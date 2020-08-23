@@ -1,3 +1,40 @@
 .subscription {
   color: $dark-grey;
+  color: $dark-grey;
+  text-transform: uppercase;
+}
+
+.subscription__table {
+  background-color: $dark-grey;
+  color: $white;
+}
+
+.subscription__table__row {
+  background-color: $white;
+  color: $dark-grey;
+}
+
+.subscription__table__cell-color {
+  background-color: $fuksia;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.subscription__table__cell-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.subscription__table__cell-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.subscription__table__cell-price {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
 }

@@ -1,14 +1,21 @@
 .button {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 18px;
-    color: $fuksia;
-  }
-  .button-post {
-    color: $fuksia;
-  }
-  
-  .button--cancel {
-    color: $dark-grey;
-  }
-  
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: $fuksia;
+}
+
+.button-post {
+  color: $fuksia;
+  border: 3px solid $fuksia;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.button--cancel {
+  color: $dark-grey;
+  opacity: 0.1;
+  border: 3px solid $dark-grey;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
