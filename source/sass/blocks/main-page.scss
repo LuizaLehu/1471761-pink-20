@@ -8,8 +8,12 @@
 }
 
 .page__photo {
-  background-image: url(../../img/back-mobile.jpg);
-  outline: 1px solid #000;
+  outline: 1px solid red;
+ 
+}
+.page__photo__container {
+  background-image: url('../../img/back-mobile.jpg');
+  height: 190px;
 }
 
 .page-photo__title {

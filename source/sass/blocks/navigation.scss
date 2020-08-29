@@ -9,4 +9,13 @@
     color: $white;
     outline: 3px solid $red;
   }
+  .main-nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 325px;
+  }
+  .main-nav__list a {
+    color: $white;
+  }
   

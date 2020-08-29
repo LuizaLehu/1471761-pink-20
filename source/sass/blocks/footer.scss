@@ -1,17 +1,17 @@
-$white: #ffffff;
-$red: red;
-$dark-grey: #283645;
 
 .footer {
   background-color: $white;
-  outline: 2px solid #000000;
-
+  outline: 2px solid red;
+}
+.page-footer {
+  display: flex;
+  height: 284px;
 }
 
 .footer__wraper {
   margin: 0 auto;
   padding: 40px, 85px;
-  outline: 3px solid $red
+  outline: 3px solid $red;
 }
 .footer__developer {
   font-weight: normal;

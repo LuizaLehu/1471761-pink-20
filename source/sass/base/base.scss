@@ -42,6 +42,7 @@ $red: red;
 }
 
 .page-body {
+  min-height: 100%;
   margin: 0;
   padding: 0;
   font-family: "Open Sans", "Arial", sans-serif;
@@ -66,6 +67,12 @@ input[type="radio"].visually-hidden {
   margin: -1px;
   border: 0;
   padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }

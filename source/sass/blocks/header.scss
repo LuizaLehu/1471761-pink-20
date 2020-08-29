@@ -1,6 +1,9 @@
 .page-header {
+  display: flex;
+  flex-direction: column;
   background-color: $dark-grey;
   outline: 3px solid $red;
 }
+
 
 
