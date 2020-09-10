@@ -73,3 +73,25 @@
 .form__fieldset {
   background-color: $light-grey;
 }
+@media (min-width: $tablet-width) {
+  .form__container {
+  height: 250px;
+}
+}
+@media (min-width: $desktop-width) {
+  .form__container {
+  height: 280px;
+}
+}
+@media (min-width: $tablet-width) {
+  .form__container__title {
+  font-size: 50px;
+  line-height: 68px;
+}
+}
+@media (min-width: $desktop-width) {
+  .form__container__title {
+  font-size: 50px;
+  line-height: 68px;
+}
+}

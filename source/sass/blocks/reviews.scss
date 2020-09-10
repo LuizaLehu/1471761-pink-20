@@ -1,45 +1,92 @@
 .reviews {
-    background-color: $white;
-    outline: 1px solid #000;
-  }
-  .reviews__item {
-    display: grid;
-    grid-column-gap: 20px;
-    
-  }
-  .reviews__introduction {
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-  }
-  
-  .reviews__item__text {
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 24px;
-  }
-  
+  display: flex;
+  background-color: $white;
+  outline: 1px solid red;
+}
+
+.reviews__item {
+  display: grid;
+  grid-column-gap: 30px;
+}
+
+.reviews__introduction {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.reviews__item__text {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+}
+
 .reviews__info {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: $dark-grey;
-    height: 192px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: $dark-grey;
+  height: 192px;
+}
+
+.reviews__name {
+  font-weight: bold;
+}
+
+.reviews__time,
+.reviews__likes {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.reviews__likes {
+  color: $fuksia;
+}
+
+@media (min-width: $desktop-width) {
+  .reviews__item__picture-first {
+    height: 506px;
   }
-  
-  .reviews__name {
-    font-weight: bold;
+}
+
+@media (min-width: $tablet-width) {
+  .reviews__info {
+    height: 121px;
   }
-  
-  .reviews__time,
-  .reviews__likes {
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 24px;
-    text-transform: uppercase;
+}
+
+@media (min-width: $desktop-width) {
+  .reviews__info {
+    height: 96px;
   }
-  
-  .reviews__likes {
-    color: $fuksia;
+}
+
+.reviews__item__picture {
+  @media (min-width: $tablet-width) {
+    height: 300px;
+    width: 300px;
   }
-  
+}
+
+@media (min-width: $tablet-width) {
+  .reviews__item {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .reviews__item {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .reviews__item {
+    height: 400px;
+    width: 300px;
+  }
+}

@@ -2,6 +2,7 @@
 .footer {
   background-color: $white;
   outline: 2px solid red;
+  display: flex;
 }
 .page-footer {
   display: flex;
@@ -18,4 +19,14 @@
   font-size: 14px;
   line-height: 18px;
   color: $dark-grey;
+}
+@media (min-width: $tablet-width) {
+  .page-footer {
+  height: 127px;
+}
+}
+@media (min-width: $desktop-width) {
+  .page-footer {
+  height: 197px;
+}
 }

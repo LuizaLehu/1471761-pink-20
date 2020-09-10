@@ -1,0 +1,15 @@
+.page__photo {
+  display: block;
+}
+
+@media (min-width: $tablet-width) {
+    .page__photo__container {
+    height: 330px;
+  }
+}
+
+  @media (min-width: $desktop-width) {
+    .page__photo__container {
+    height: 280px;
+  }
+}
