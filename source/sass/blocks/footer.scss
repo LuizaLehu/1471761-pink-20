@@ -4,15 +4,18 @@
   flex-direction: column;
   background-color: $white;
   outline: 2px solid red;
-  
+}
+@media (min-width: $tablet-width) {
+  .footer {
+    display: flex;
+  }
 }
 .page-footer {
-  height: 284px;
+  min-height: 284px;
 }
 
 .footer__wraper {
   margin: 0 auto;
-  padding: 40px, 85px;
   outline: 3px solid $red;
 }
 .footer__developer {
@@ -22,16 +25,6 @@
   color: $dark-grey;
   outline: 2px solid yellow;
 }
-@media (min-width: $tablet-width) {
-  .page-footer {
-  height: 127px;
-}
-}
-@media (min-width: $desktop-width) {
-  .page-footer {
-  height: 197px;
-}
-}
 
 .footer__logo {
   margin-left: 88px;
@@ -40,8 +33,14 @@
   margin-left: 77px;
 }
 .footer__developer {
-  margin-left: 95px;
+  margin-left: 20px;
 }
 .footer__logo__image {
   margin-top: 40px;
+}
+@media (min-width: $tablet-width) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
 }

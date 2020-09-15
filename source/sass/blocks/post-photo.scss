@@ -8,5 +8,17 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 30px;
-  color: $dark-grey
+  color: $dark-grey;
+  text-align: center;
+}
+.post-photo__wraper__image {
+  width: 100%;
+}
+.post-photo__option-all {
+  display: flex;
+  justify-content: space-between;
+}
+.post-photo__button__wraper {
+  display: flex;
+  flex-direction: column;
 }

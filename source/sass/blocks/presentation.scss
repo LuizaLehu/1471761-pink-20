@@ -3,7 +3,7 @@
   align-items: center;
   background-color: $dark-grey;
   padding: 20px;
-  background-image: url(../../img/bg-back-mobile);
+  background-image: url(../img/bg-back-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
@@ -12,13 +12,12 @@
 
 @media (min-width: $tablet-width) {
   .presentation {
-    background-image: url(../../img/bg-back-tablet);
+    background-image: url(../../img/bg-back-tablet.jpg);
     background-repeat: no-repeat;
   }
   }
   
 .presentation__header {
-    background-color: $dark-grey;
     padding: 20px;
     outline: 2px solid red;
   }
@@ -33,6 +32,7 @@
   @media (min-width: $tablet-width) {
     .presentation__header__title {
       margin-bottom: 30px; 
+      text-align: start;
     }
   }
   .presentation__button {
@@ -53,6 +53,7 @@
   
   .presentation__header {
     margin: 0;
+    position: relative;
   }
   @media (min-width: $desktop-width) {
     .presentation {
@@ -80,15 +81,21 @@
   padding: 40px;
   margin-left: 60px;
 }
+@media (min-width: $tablet-width) {
+  .presentation__icons {
+    justify-content: start;
+  }
+}
 .presentation__header::before {
-  content: "../../img/iphone-hand-mobile";
+  content: "";
   display: block;
   width: 320px;
   height: 286px;
-    position: absolute;
-    left: 50%;
-    margin-left: -30px;
-    top: -30px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url(../../img/iphone-hand-mobile.png);
+  background-repeat: no-repeat;
 }
 .presentation-wraper {
   display: flex;
@@ -99,4 +106,10 @@
   padding: 20px;
   margin: 10px;
   text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+ .presentation-wraper {
+   text-align: start;
+ }
 }

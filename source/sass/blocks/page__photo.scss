@@ -1,7 +1,10 @@
 .page__photo {
   display: block;
 }
-
+.page__photo__container {
+  background-color: $grey;
+  color: $white;
+}
 @media (min-width: $tablet-width) {
   .page__photo__container {
     height: 330px;

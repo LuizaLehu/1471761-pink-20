@@ -11,7 +11,19 @@
   width: 74px;
   height: 23px;
 }
-
+@media (min-width: $tablet-width) {
+  .page-header__logo::before {
+    content: "";
+    display: block;
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url(../../img/logotype-blue-tablet.png);
+    background-repeat: no-repeat;
+  }
+}
 .page-header__wrapper {
   display: flex;
   justify-content: space-between;
