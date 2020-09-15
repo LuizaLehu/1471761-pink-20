@@ -19,14 +19,7 @@
   box-sizing: border-box;
   border-radius: 30px;
 }
-.main-nav__toggle {
-  outline: 5px solid green;
-    outline-offset: -5px;
-    margin-top: 30px;
-    margin-right: 10px;
-    padding: 10px;
-    display: none;
-}
+
 .main-nav__cancel {
   outline: 5px solid red;
     outline-offset: -5px;
@@ -34,10 +27,21 @@
    margin-bottom: 10px;
     margin-right: 20px;
     padding: 10px;
-    max-height: 70px;
 }
+@media (min-width: $desktop-width) {
+  .main-nav__cancel {
+  display: none;
+}
+}
+@media (min-width: $tablet-width) {
+  .main-nav__cancel {
+  margin-top: 43px;
+}
+}
+
 .presentation__button {
   border: 3px solid $white;
 box-sizing: border-box;
 border-radius: 29px;
+padding: 20px 40px;
 }

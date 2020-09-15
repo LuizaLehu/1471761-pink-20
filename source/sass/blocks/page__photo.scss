@@ -3,13 +3,19 @@
 }
 
 @media (min-width: $tablet-width) {
-    .page__photo__container {
+  .page__photo__container {
     height: 330px;
   }
 }
 
-  @media (min-width: $desktop-width) {
-    .page__photo__container {
+@media (min-width: $desktop-width) {
+  .page__photo__container {
     height: 280px;
   }
+}
+
+.page__photo__title {
+  background: url(back-mobile@2x.jpg);
+  background-size: cover;
+  text-align: center;
 }

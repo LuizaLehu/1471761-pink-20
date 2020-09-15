@@ -1,7 +1,5 @@
 .main-nav {
-    display: flex;
     box-shadow: inset 0px 0px 1px #000000;
-    margin-top: 80px;
     margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
@@ -17,19 +15,17 @@
   
   .main-nav__list {
     margin: 0;
-    padding: 20px;
-    height: 325px;
-    display: inline-block;
+    padding: 0;
     list-style: none;
-    align-content: center;
   }
   
   .main-nav__list__link {
     outline: 5px solid green;
     outline-offset: -5px;
     color: $white;
-    display: flex;
-    align-items: center; 
+    display: block;
+    padding: 25px 0;
+    text-align: center;
   } 
   @media (min-width: $desktop-width) {
     .main-nav__wrapper {
@@ -76,4 +72,7 @@ display: block;
 justify-content: space-between;
 height: 100%;
 }
+}
+.main-nav__photo {
+  display: none;
 }

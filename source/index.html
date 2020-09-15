@@ -3,25 +3,23 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pink</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="page-body container">
   <header class="page-header">
-    <div class="page-header__wrapper">
-      <a class="page-header__logo">
-        <img src="img/pink-logo.png" width="74" height="23" alt="logo">
-      </a>
-      <button class="main-nav__cancel" type="button">
-        <span class="visually-hidden">Закрыть меню</span>
-      </button>
-    </div>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
-      <div class="main-nav__wrapper">
+    <div class="page-header__top">
+      <div class="page-header__wrapper">
+        <a class="page-header__logo">
+          <img src="img/pink-logo.png" width="74" height="23" alt="logo">
+        </a>
+        <button class="main-nav__cancel" type="button">
+          <span class="visually-hidden">Закрыть меню</span>
+        </button>
+      </div>
+      <nav class="main-nav">
         <ul class="main-nav__list site-list">
           <li class="main-nav__list__item site-list__item--active">
             <a class="main-nav__list__link" href="#">
@@ -44,40 +42,37 @@
             </a>
           </li>
         </ul>
-      </div>
-      <button class="main-nav__cancel" type="button">
-        <span class="visually-hidden">Закрыть меню</span>
-      </button>
-    </nav>
-    
-  </header>
-  <main class="page-main">
-    <h1 class="visually-hidden">
-      PINK -раскрась свою жизнь
-    </h1>
+      </nav>
+    </div>
     <section class="presentation">
       <div class="presentation__header">
         <h2 class="presentation__header__title">
           Взгляни на жизнь иначи!
         </h2>
       </div>
-      <img class="presentation__picture" src="img/iphone-hand-mobile.png" width="320" height="286" alt="phone">
-      <p>https://www.apple.com/ios/app-store/</p>
-      <a class="presentation__button" href="https://www.apple.com/ios/app-store/">
-        Скачать приложение
-      </a>
-      <div class="presentation__icons">
-        <a href="https://www.apple.com/ios/app-store/"><img src="img/apple-logo.png" width="47" height="56"
-            alt="iPhone"></a>
-        <a href="https://play.google.com/store/apps"><img src="img/android-logo.png" width="43" height="47"
-            alt="android"></a>
-        <a href="https://www.microsoft.com/en-us/store/apps/windows"><img src="img/microsoft-logo.png" width="44"
-            height="41" alt="windows"></a>
-      </div>
-      <div class="presentation__description">
-        Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+      <!--<img class="presentation__picture" src="img/iphone-hand-mobile.png" width="320" height="286" alt="phone"> -->
+      <div class="presentation-wraper">
+        <a class="presentation__button" href="https://www.apple.com/ios/app-store/">
+          Скачать приложение
+        </a>
+        <div class="presentation__icons">
+          <a href="https://www.apple.com/ios/app-store/"><img src="img/apple-logo.png" width="47" height="56"
+              alt="iPhone"></a>
+          <a href="https://play.google.com/store/apps"><img src="img/android-logo.png" width="43" height="47"
+              alt="android"></a>
+          <a href="https://www.microsoft.com/en-us/store/apps/windows"><img src="img/microsoft-logo.png" width="44"
+              height="41" alt="windows"></a>
+        </div>
+        <p class="presentation__description">
+          Доступно для iPhone, iPad, Android,<br> Windows Phone, OS X, Windows 8</p>
+        </p>
       </div>
     </section>
+  </header>
+  <main class="page-main">
+    <h1 class="visually-hidden">
+      PINK -раскрась свою жизнь
+    </h1>
     <section class="advantages">
       <h3 class="visually-hidden">
         Наши преимущества
@@ -282,7 +277,7 @@
   <footer class="page-footer footer">
     <div class="footer__wraper">
       <div class="footer__logo">
-        <img src="img/logotype-blue-tablet.png" width="145" height="40" alt="">
+        <img src="img/logotype-blue-tablet.png" width="145" height="40" alt="" class="footer__logo__image">
       </div>
       <div class="footer__social-icons social">
         <ul class="social__list">

@@ -1,8 +1,5 @@
 
 .page-header {
-  display: flex;
-    flex-direction: row;
-    justify-content: space-between;
   background-color: $dark-grey;
   outline: 5px solid rgba(0, 255, 0, 0.3);
   outline-offset: -5px;
@@ -11,23 +8,26 @@
   outline: 5px solid red;
   outline-offset: -5px;
   margin-left: 20px;
-  margin-top: 20px;
-  padding: 10px;
   width: 74px;
   height: 23px;
 }
+
 .page-header__wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 23px 0;
+  height: 69px;
 }
-@media (min-width: $mobile-width) {
-  .page-header__logo {
-    height: 69px;
+
+  @media (min-width: $tablet-width) {
+    .page-header__wrapper {
+      height: 109px;
+    }
   }
-}
   @media (min-width: $tablet-width) {
     .page-header__logo {
-      height: 109px;
+      margin-top: 27px;
     }
   }
     @media (min-width: $desktop-width) {

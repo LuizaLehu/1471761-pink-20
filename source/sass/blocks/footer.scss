@@ -1,11 +1,12 @@
 
 .footer {
+  display: flex;
+  flex-direction: column;
   background-color: $white;
   outline: 2px solid red;
-  display: flex;
+  
 }
 .page-footer {
-  display: flex;
   height: 284px;
 }
 
@@ -19,6 +20,7 @@
   font-size: 14px;
   line-height: 18px;
   color: $dark-grey;
+  outline: 2px solid yellow;
 }
 @media (min-width: $tablet-width) {
   .page-footer {
@@ -29,4 +31,17 @@
   .page-footer {
   height: 197px;
 }
+}
+
+.footer__logo {
+  margin-left: 88px;
+}
+.footer__social-icons {
+  margin-left: 77px;
+}
+.footer__developer {
+  margin-left: 95px;
+}
+.footer__logo__image {
+  margin-top: 40px;
 }
