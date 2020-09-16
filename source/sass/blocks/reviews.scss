@@ -8,7 +8,11 @@
   flex-direction: column;
 margin-bottom: 20px;
 }
-
+@media (min-width: $tablet-width) {
+  .reviews__item {
+    width: 300px;
+  }
+}
 .reviews__introduction {
   font-weight: normal;
   font-size: 18px;
@@ -56,14 +60,14 @@ margin-bottom: 20px;
 }
 @media (min-width: $desktop-width) {
   .reviews__item__picture-first {
-    height: 506px;
+    min-height: 506px;
   
   }
 }
 
 @media (min-width: $tablet-width) {
   .reviews__info {
-    height: 121px;
+    min-height: 121px;
   }
 }
 

@@ -2,3 +2,10 @@
     display: flex;
     flex-wrap: wrap;
 }
+@media (min-width: $tablet-width) {
+    .photos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+}

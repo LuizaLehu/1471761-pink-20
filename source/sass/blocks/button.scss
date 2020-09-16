@@ -11,7 +11,7 @@
   box-sizing: border-box;
   border-radius: 30px;
   padding: 20px 110px;
-margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .button--cancel {
@@ -21,44 +21,50 @@ margin-bottom: 12px;
   box-sizing: border-box;
   border-radius: 30px;
   padding: 20px 123px;
-margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .main-nav__cancel {
   outline: 5px solid red;
-    outline-offset: -5px;
-    margin-top: 10px;
-   margin-bottom: 10px;
-    margin-right: 20px;
-    padding: 10px;
+  outline-offset: -5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 90px;
+  padding: 10px;
 }
+
 @media (min-width: $desktop-width) {
   .main-nav__cancel {
-  display: none;
+    display: none;
+  }
 }
-}
+
 @media (min-width: $tablet-width) {
   .main-nav__cancel {
-  margin-top: 43px;
-}
+    margin-top: 43px;
+  }
 }
 
 .presentation__button {
-border: 3px solid $white;
-box-sizing: border-box;
-border-radius: 29px;
-padding: 20px 40px;
-color: $white;
+  border: 3px solid $white;
+  box-sizing: border-box;
+  border-radius: 29px;
+  padding: 20px 40px;
+  color: $white;
+  width: 280px;
+  height: 55px;
 }
+
 @media (min-width: $tablet-width) {
   .presentation__button {
     max-width: 300px;
   }
 }
+
 .button--post-photo {
   border: 3px solid #D22856;
-box-sizing: border-box;
-border-radius: 30px;
-padding: 20px 90px;
-margin-bottom: 12px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 20px 90px;
+  margin-bottom: 12px;
 }

@@ -1,22 +1,27 @@
 .contacts {
   background-color: $white;
   color: $dark-grey;
-  padding-bottom: 20px;
-  padding-top: 50px;
-  padding-left: 40px;
-  padding-right: 40px;
+  
 }
 
 .contacts__title {
   font-weight: 300;
   font-size: 24px;
   line-height: 120%;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .contacts__item {
   font-weight: bold;
   font-size: 18px;
   line-height: 25px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .contacts__item-number,
@@ -26,8 +31,20 @@
   font-size: 24px;
   line-height: 33px;
   color: $fuksia;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .contacts__map {
   width: 100%;
   min-height: 200px;
+  padding-left: 0;
+  padding-right: 0;
+  border: 0;
+  width: 100%;
+}
+.contacts__map-frame {
+  border: 0;
+  width: 100%;
 }

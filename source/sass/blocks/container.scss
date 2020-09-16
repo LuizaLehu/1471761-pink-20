@@ -1,8 +1,10 @@
 .container {
-    max-width: 1160px;
-    margin: 0 auto;
-    width: 100%;
+  max-width: 1160px;
+  min-width: 280px;
+  margin: 0 auto;
+  width: 100%;
 }
+
 .page-body {
-    min-width: 320px;
+  min-width: 320px;
 }
